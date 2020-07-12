@@ -33,7 +33,7 @@ export default (props: PropType) => (
   <BrowserRouter>
     <GlobalStyle />
     <Switch>
-      <Route component={<App />} exact path="/" />
+      <Route component={App} exact path="/" />
       <Route component={() => <>Not Found</>} />
     </Switch>
   </BrowserRouter>
