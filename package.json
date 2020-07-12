@@ -3,9 +3,9 @@
   "version": "0.4.1",
   "description": "Lorem ipsum.",
   "homepage": "https://domain.com",
-  "repository": "cjpatoilo/convertcase",
+  "repository": "andrefbrweb/convertcase.net",
   "license": "MIT",
-  "author": "CJ Patoilo <cjpatoilo@gmail.com>",
+  "author": "André Ferreira",
   "private": true,
   "keywords": [
     "🐥"

@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { createGlobalStyle } from 'styled-components/macro'
+import App from './App'
 
-type PropType = {
-}
+type PropType = {}
 
 const GlobalStyle = createGlobalStyle`
   :root {
@@ -33,7 +33,7 @@ export default (props: PropType) => (
   <BrowserRouter>
     <GlobalStyle />
     <Switch>
-      <Route component={() => <>My App</>} exact path="/" />
+      <Route component={<App />} exact path="/" />
       <Route component={() => <>Not Found</>} />
     </Switch>
   </BrowserRouter>
