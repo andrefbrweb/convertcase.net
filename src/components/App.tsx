@@ -1,9 +1,10 @@
 import React from 'react'
+import Hello from './screens/hello'
 
 const App = () => {
    return (
     <div>
-       <h1>Hello world!</h1>
+       <Hello/>
     </div>
    )
    
